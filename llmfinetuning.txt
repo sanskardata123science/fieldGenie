@@ -1,0 +1,21 @@
+🛠️ How LLaMA Works in Our Fine-Tuning Pipeline-
+1️⃣ Load LLaMA Model & Tokenizer
+✅ Load the Dataset
+📌 Preprocessing Steps
+1️⃣ Tokenization
+
+Convert raw text into tokens using Hugging Face Tokenizers.
+2️⃣ Chunking (Sliding Window Approach)
+
+Legal documents are often long.
+We split documents into overlapping chunks for better processing.
+3️⃣ Model Selection
+4️⃣ Fine-Tuning the Model
+📌 Training Setup
+1️⃣ Define Training Arguments
+2️⃣ Use Hugging Face Trainer API for optimization
+
+5️⃣ Save & Deploy the Fine-Tuned Model
+DATASET-
+LINK - https://drive.google.com/file/d/1bQCtqoXYUFhzBD4VMK7qKOqa6sVPmn2D/view?usp=sharing
+
